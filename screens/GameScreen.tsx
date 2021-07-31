@@ -56,6 +56,8 @@ const nextMove = (type:string) =>{
                <Button title="GREATER" onPress={()=>{nextMove('greater')}} />
                <Button title="RESET" onPress={()=>{startGame(undefined)}} /> 
                <Button title="TRY AGAIN" onPress={()=>{console.log('try again')}}/>
+               <Button title="TRY AGAIN 2" onPress={()=>{console.log('try again')}}/>
+
 
                </View>
             </Card>
