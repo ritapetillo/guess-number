@@ -55,6 +55,7 @@ const nextMove = (type:string) =>{
                <Button title="LOWER" onPress={()=>{nextMove('lower')}}/>
                <Button title="GREATER" onPress={()=>{nextMove('greater')}} />
                <Button title="RESET" onPress={()=>{startGame(undefined)}} /> 
+               <div>Try again</div>
 
                </View>
             </Card>
